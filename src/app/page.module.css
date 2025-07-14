@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;700&display=swap');
+
+.stitchMain {
+  display: flex;
+  min-height: 100vh;
+  background: #121417;
+  font-family: 'Lexend', sans-serif;
+}
+
+.sidebar {
+  width: 320px;
+  background: #1c2126;
+  padding: 20px 0 0 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.profileCard {
+  background: #23272b;
+  border-radius: 16px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.profileImageWrapper {
+  width: 128px;
+  height: 128px;
+  border-radius: 64px;
+  background: #293038;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profileImage {
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  background: #757575;
+  border: 3px solid #fff;
+  box-shadow: 0 2px 12px rgba(44, 62, 80, 0.12);
+}
+
+.profileInfo {
+  text-align: center;
+}
+
+.profileName {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.profileRole {
+  color: #9cabba;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.statsRow {
+  display: flex;
+  gap: 12px;
+}
+
+.statCard {
+  background: #23272b;
+  border-radius: 8px;
+  padding: 12px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.statValue {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.statLabel {
+  color: #9cabba;
+  font-size: 14px;
+}
+
+.statCardLarge {
+  background: #23272b;
+  border-radius: 8px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.recentMatchesTitle {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0 0 8px 0;
+}
+
+.matchCard {
+  background: #121417;
+  border-radius: 8px;
+  padding: 8px 12px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.matchIcon {
+  width: 48px;
+  height: 48px;
+  background: #293038;
+  border-radius: 8px;
+}
+
+.matchInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.matchStats {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.matchOpponent {
+  color: #9cabba;
+  font-size: 14px;
+}
+
+.dashboard {
+  flex: 1;
+  padding: 20px 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.dashboardHeader {
+  margin-bottom: 24px;
+}
+
+.dashboardTitle {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.dashboardSubtitle {
+  color: #9cabba;
+  font-size: 14px;
+  margin: 0;
+}
+
+.seasonTabs {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+.seasonTab,
+.seasonTabActive {
+  background: #293038;
+  color: #fff;
+  border: none;
+  border-radius: 16px;
+  padding: 8px 24px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.seasonTabActive {
+  background: #3b4754;
+}
+
+.metricsGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px;
+  margin-bottom: 40px;
+}
+
+.metricCard {
+  background: #23272b;
+  border-radius: 12px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.metricLabel {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.metricValue {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.metricSubRow {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.metricSubLabel {
+  color: #9cabba;
+  font-size: 16px;
+}
+
+.metricChangePositive {
+  color: #0ad95c;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.metricChangeNegative {
+  color: #fa6138;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.metricChartPlaceholder {
+  background: #0ad95c;
+  border-radius: 8px;
+  margin: 8px 0;
+  height: 137px;
+}
+
+.metricChartLabel {
+  color: #9cabba;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.seasonComparisonTitle {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0 0 8px 0;
+}
+
+.seasonComparisonTable {
+  background: #121417;
+  border-radius: 12px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.seasonComparisonHeader {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.seasonComparisonRow {
+  display: flex;
+  justify-content: space-between;
+  color: #9cabba;
+  font-size: 14px;
+}
+
+@media (max-width: 900px) {
+  .stitchMain {
+    flex-direction: column;
+  }
+  .sidebar {
+    width: 100%;
+    padding: 12px 0 0 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+  }
+  .dashboard {
+    padding: 12px 8px;
+  }
+  .metricsGrid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+}
+
+@media (max-width: 600px) {
+  .stitchMain {
+    flex-direction: column;
+    padding: 0;
+  }
+  .sidebar {
+    width: 100%;
+    padding: 8px 0 0 0;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+  .dashboard {
+    padding: 8px 4px;
+  }
+  .metricsGrid {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+  .profileCard {
+    width: 100%;
+    max-width: 320px;
+  }
+}
+
+.seasonComparisonTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+.seasonComparisonTable th,
+.seasonComparisonTable td {
+  padding: 8px 4px;
+  text-align: left;
+}
+.seasonComparisonTable th {
+  background: #23272b;
+  color: #fff;
+  font-weight: 500;
+}
+.seasonComparisonTable tr {
+  border-bottom: 1px solid #23272b;
+}
+.seasonComparisonTable tr:last-child {
+  border-bottom: none;
+}
+.seasonTab,
+.seasonTabActive {
+  outline: none;
+  transition: background 0.2s, color 0.2s;
+}
+.seasonTab:focus,
+.seasonTabActive:focus {
+  box-shadow: 0 0 0 2px #0ad95c;
+}
+
+.page-module___8aEwW__metricChartPlaceholder {
+  background-color: #fff !important;
+}
+
+.page-module___8aEwW__dashboardTitle {
+  font-family: 'Comic Sans MS', cursive, sans-serif !important;
+}
+
+.page-module___8aEwW__sidebar {
+  background: #1c2126 !important;
+}
